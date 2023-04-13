@@ -1,0 +1,15 @@
+import PySimpleGUI as sg
+import json
+import pathlib
+
+f=open('test.json', 'r+')
+data = json.load(f)
+keyword=data["keyword"]
+#data['id'] = 134 # <--- add `id` value.
+#f.seek(0)        # <--- should reset file position to the beginning.
+#json.dump(data, f, indent=4)
+#f.truncate()     # remove remaining part
+print(keyword)
+#keyword=json.load(keyword)
+print(keyword[0])
+(keyword[0])["eng"]="test"

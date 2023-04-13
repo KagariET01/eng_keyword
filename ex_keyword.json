@@ -1,0 +1,15 @@
+{
+	"st":0,
+	"now":1,
+	"ed":2,
+	"err":0,
+	"o_file":null,
+	"keyword":[
+		{"ch":"蘋果","eng":"apple"},
+		{"ch":"香蕉","eng":"banana"},
+		{"ch":"水","eng":"water"},
+		{"ch":"牛奶","eng":"milk"},
+		{"ch":"我","eng":"I"},
+		{"ch":"你","eng":"you"},
+	]
+}
